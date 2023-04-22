@@ -1,15 +1,18 @@
-﻿public class Solution 
+﻿namespace Concatenation_of_Array
 {
-    public int[] GetConcatenation(int[] nums)
+    public class Solution 
     {
-        int[] concatenationArray = new int[nums.Length * 2];
-
-        for (int i = 0; i < nums.Length; i++)
+        public int[] GetConcatenation(int[] nums)
         {
-            concatenationArray[i] = nums[i];
-            concatenationArray[nums.Length + i] = nums[i];
-        }
+            int[] concatenationArray = new int[nums.Length * 2];
 
-        return concatenationArray;
+            for (int i = 0; i < nums.Length; i++)
+            {
+                concatenationArray[i] = nums[i];
+                concatenationArray[nums.Length + i] = nums[i];
+            }
+
+            return concatenationArray;
+        }
     }
 }
