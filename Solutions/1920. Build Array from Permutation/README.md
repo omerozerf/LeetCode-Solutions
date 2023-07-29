@@ -41,4 +41,21 @@ ans = [nums[nums[0]], nums[nums[1]], nums[nums[2]], nums[nums[3]], nums[nums[4]]
 // Time: O(N)
 // Space: O(N)
 
+namespace Build_Array_from_Permutation
+{
+    public class Solution
+    {
+        public int[] BuildArray(int[] nums)
+        {
+            int[] ans = new int[nums.Length];
+
+            for (var number = 0; number < ans.Length; number++)
+            {
+                ans[number] = nums[nums[number]];
+            }
+
+            return ans;
+        }
+    }
+}
 ```
