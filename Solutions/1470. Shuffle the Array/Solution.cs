@@ -12,7 +12,7 @@
                 xArray[i] = numArray[i];
                 yArray[i] = numArray[i + n];
                 
-                int[] answerArray = 
+                // int[] answerArray = 
             }
         }
     }
