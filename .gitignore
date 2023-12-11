@@ -3,3 +3,8 @@
 *.json
 .idea/
 .github/
+*obj/
+Program.cs
+*.csproj
+*.sln
+*Properties/
