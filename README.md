@@ -1,10 +1,16 @@
 ﻿# 🚀 LeetCode Solutions
 
 ![Language](https://img.shields.io/badge/Language-C%23-blue)
-![Solutions](https://img.shields.io/badge/Solutions-4-green)
 ![License](https://img.shields.io/github/license/omerozerf/LeetCode-Solutions)
 
 A collection of clean, efficient, and well-documented LeetCode solutions implemented in **C#**.
+
+## 📂 Stats
+<div align="center">
+  <a href="https://leetcode.com/omerozerf" target="_blank">
+    <img src="https://leetcard.jacoblin.cool/omerozerf?theme=dark&ext=activity&border=0&radius=10" alt="LeetCode Card"/>
+  </a>
+</div>
 
 ## 📂 Solutions
 
